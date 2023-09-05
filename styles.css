@@ -4,11 +4,13 @@
 }
 body{
 	background-color: black; 
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	height:100vh;
+	
 }  
- /* *{
-	border: 1px dashed red;
-	min-height: 10px;
-}  */
+ 
 .postcard {
     font-family: 'insta';
 	background: white;
@@ -60,13 +62,17 @@ body{
 	font-size: 1.3rem;
 	margin-left: 165px;
 }
-#likes{
+.likes{
 	color: rgb(106, 106, 106);
 	font-size: 10px;
+	margin: 0px 0px 0px 0px;
 }
-#comentarios {
+.comentarios {
 	padding-left: 10px;
 	font-size: 10px;
+}
+.comentarios :nth-child(2){
+	margin: 5px 0px 0px 0px;
 }
 #emoji{
 	background: yellow;
